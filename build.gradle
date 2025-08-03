@@ -151,6 +151,10 @@ dependencies {
 
     implementation "curse.maven:ex-pattern-provider-892005:6838796"
     implementation "curse.maven:glodium-957920:5821676"
+
+    implementation "curse.maven:ftb-jei-extras-1103259:6695679"
+
+    implementation "curse.maven:jade-324717:6738687"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
