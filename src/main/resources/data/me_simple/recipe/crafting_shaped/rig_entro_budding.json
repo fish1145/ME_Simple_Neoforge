@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:echo_shard"
+    },
+    "b": {
+      "item": "ae2:controller"
+    },
+    "c": {
+      "tag": "c:glass_blocks"
+    },
+    "d": {
+      "item": "ae2:inscriber"
+    },
+    "e": {
+      "tag": "c:ingots/gold"
+    },
+    "f": {
+      "item": "ae2:not_so_mysterious_cube"
+    }
+  },
+  "result": {
+    "id": "me_simple:rig_entro_budding"
+  }
+}

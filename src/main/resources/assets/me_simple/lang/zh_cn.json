@@ -1,5 +1,11 @@
 {
-  "item.me_simple.blue_crystal_ingot": "蓝晶锭",
+  "creative_tab.simple_ae.material": "简单AE/材料",
+  "creative_tab.simple_ae.machines": "简单AE/机械",
+
+
+  "item.simple_ae.blue_crystal_ingot": "蓝晶锭",
+
+  "item.simple_ae.sky_stone_bit": "陨石钻头",
 
 
   "block.me_simple.rig_entro_budding": "母岩钻机"

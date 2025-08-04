@@ -1,12 +1,12 @@
 package net.fish_dan_.me_simple;
 
 import net.fish_dan_.me_simple.block.ModBlocks;
+import net.fish_dan_.me_simple.item.ModCreativeModeTabs;
 import net.fish_dan_.me_simple.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 
-import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -18,15 +18,15 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(Me_Simple.MOD_ID)
-public class Me_Simple {
+@Mod(Simple_Ae.MOD_ID)
+public class Simple_Ae {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "me_simple";
+    public static final String MOD_ID = "simple_ae";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public Me_Simple(IEventBus modEventBus, ModContainer modContainer) {
+    public Simple_Ae(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -34,6 +34,8 @@ public class Me_Simple {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -52,13 +54,6 @@ public class Me_Simple {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.BLUE_CRYSTAL_LNGOT);
-        }
-
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.EIG_ENTRO_BUDDING);
-        }
    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

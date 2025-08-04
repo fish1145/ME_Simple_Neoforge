@@ -1,6 +1,6 @@
 package net.fish_dan_.me_simple.block;
 
-import net.fish_dan_.me_simple.Me_Simple;
+import net.fish_dan_.me_simple.Simple_Ae;
 import net.fish_dan_.me_simple.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
-            DeferredRegister.createBlocks(Me_Simple.MOD_ID);
+            DeferredRegister.createBlocks(Simple_Ae.MOD_ID);
 
     public static final DeferredBlock<Block> EIG_ENTRO_BUDDING =registerBlock("rig_entro_budding",
             () -> new Block(BlockBehaviour
