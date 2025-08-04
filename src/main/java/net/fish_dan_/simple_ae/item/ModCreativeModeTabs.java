@@ -22,7 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(ModItems.BLUE_CRYSTAL_LNGOT);
-                        output.accept(ModItems.SKY_STONE_BIT);
+                        output.accept(ModItems.MYSTERIOUS_BIT);
 
                     }).build());
 

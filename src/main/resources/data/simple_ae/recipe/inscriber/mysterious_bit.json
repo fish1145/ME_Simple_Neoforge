@@ -1,0 +1,16 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "top": {
+      "tag": "ae2:glass_cable"
+    },
+    "middle": {
+      "item": "ae2:not_so_mysterious_cube"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "count": 1,
+    "id": "simple_ae:mysterious_bit"
+  }
+}
