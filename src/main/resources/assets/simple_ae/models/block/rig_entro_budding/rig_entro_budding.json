@@ -4,14 +4,14 @@
 	"parent": "block/orientable",
 	"render_type": "cutout",
 	"textures": {
-		"1": "me_simple:block/rig_entro_budding/top",
+		"1": "simple_ae:block/rig_entro_budding/top",
 		"2": "ae2:part/cable/glass/transparent",
 		"4": "ae2:block/mysterious_cube_core",
-		"5": "me_simple:block/rig_entro_budding/side",
+		"5": "simple_ae:block/rig_entro_budding/side",
 		"7": "ae2:block/growth_accelerator_top",
 		"8": "ae2:block/mysterious_cube_bottom",
 		"9": "ae2:block/mysterious_cube_side",
-		"particle": "me_simple:block/rig_entro_budding/top"
+		"particle": "simple_ae:block/rig_entro_budding/top"
 	},
 	"elements": [
 		{

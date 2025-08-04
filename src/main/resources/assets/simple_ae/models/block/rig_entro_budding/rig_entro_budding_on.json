@@ -4,7 +4,7 @@
 	"render_type": "cutout",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"7": "me_simple:rig_entro_budding/rig_entro_budding_on"
+		"7": "simple_ae:rig_entro_budding/rig_entro_budding_on"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
-package net.fish_dan_.me_simple;
+package net.fish_dan_.simple_ae;
 
-import net.fish_dan_.me_simple.block.ModBlocks;
-import net.fish_dan_.me_simple.item.ModCreativeModeTabs;
-import net.fish_dan_.me_simple.item.ModItems;
+import net.fish_dan_.simple_ae.block.ModBlocks;
+import net.fish_dan_.simple_ae.item.ModCreativeModeTabs;
+import net.fish_dan_.simple_ae.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -18,15 +18,15 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(Simple_Ae.MOD_ID)
-public class Simple_Ae {
+@Mod(Simple_AE.MOD_ID)
+public class Simple_AE {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "simple_ae";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public Simple_Ae(IEventBus modEventBus, ModContainer modContainer) {
+    public Simple_AE(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

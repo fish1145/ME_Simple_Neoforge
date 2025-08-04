@@ -1,4 +1,4 @@
-package net.fish_dan_.me_simple;
+package net.fish_dan_.simple_ae;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 {
   "parent":"minecraft:item/generated",
   "textures": {
-    "layer0": "me_simple:item/blue_crystal_ingot"
+    "layer0": "simple_ae:item/blue_crystal_ingot"
   }
 }

@@ -1,7 +1,7 @@
-package net.fish_dan_.me_simple.block;
+package net.fish_dan_.simple_ae.block;
 
-import net.fish_dan_.me_simple.Simple_Ae;
-import net.fish_dan_.me_simple.item.ModItems;
+import net.fish_dan_.simple_ae.Simple_AE;
+import net.fish_dan_.simple_ae.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
-            DeferredRegister.createBlocks(Simple_Ae.MOD_ID);
+            DeferredRegister.createBlocks(Simple_AE.MOD_ID);
 
     public static final DeferredBlock<Block> EIG_ENTRO_BUDDING =registerBlock("rig_entro_budding",
             () -> new Block(BlockBehaviour
